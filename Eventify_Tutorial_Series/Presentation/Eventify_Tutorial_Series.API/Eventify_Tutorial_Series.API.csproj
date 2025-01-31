@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <DocumentationFile>C:\Users\EXCALIBUR\source\repos\Eventify_Tutorial_Series\Eventify_Tutorial_Series\Presentation\Eventify_Tutorial_Series.API\Yeni Metin Belgesi.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="NSwag.AspNetCore" Version="14.2.0" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\Core\Eventify_Tutorial_Series.Applicaiton\Eventify_Tutorial_Series.Applicaiton.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Eventify_Tutorial_Series.Infrastructure\Eventify_Tutorial_Series.Infrastructure.csproj" />
+    <ProjectReference Include="..\..\Infrastructure\Eventify_Tutorial_Series.Persistence\Eventify_Tutorial_Series.Persistence.csproj" />
+  </ItemGroup>
+
+</Project>
